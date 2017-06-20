@@ -23,6 +23,12 @@ Simply download the file `v.js` from this repository, and then include it using:
 <script src='v.js'></script>
 ```
 
+You can also use RawGit's CDN:
+
+```html
+<script src="https://cdn.rawgit.com/emctague/vjs/2cae9b9a/v.js"></script>
+```
+
 ## Usage
 
 ### Creating a Vector
