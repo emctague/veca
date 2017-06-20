@@ -29,6 +29,12 @@ You can also use RawGit's CDN:
 <script src="https://cdn.rawgit.com/emctague/veca/2cae9b9a/v.js"></script>
 ```
 
+Or UNPKG:
+
+```html
+<script src="https://unpkg.com/veca/v.js"></script>
+```
+
 ## Usage
 
 ### Creating a Vector
