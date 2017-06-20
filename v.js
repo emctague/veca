@@ -1,4 +1,4 @@
-// v.js: Simple 2D and 3D vectors for JS.
+// veca: Simple 2D and 3D vectors for JS.
 function v (x, y, z) {
   return new (function () {
     this.x = x

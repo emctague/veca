@@ -1,19 +1,19 @@
-# v.js
+# veca
 
-v.js is a simple library implementing 2-D and 3-D vectors.
+Veca is a simple library implementing 2-D and 3-D vectors.
 
 ## Installation
 
 ### From NodeJS
 
-First, use `npm install` to get `v.js`.
-Second, require v.js like so:
+First, use `npm install` to get `veca`.
+Second, require veca like so:
 
 ```js
-const v = require('v.js')
+const v = require('veca')
 ```
 
-You may now use v.js's `v()` function.
+You may now use veca's `v()` function.
 
 ### From the Browser
 
@@ -26,7 +26,7 @@ Simply download the file `v.js` from this repository, and then include it using:
 You can also use RawGit's CDN:
 
 ```html
-<script src="https://cdn.rawgit.com/emctague/vjs/2cae9b9a/v.js"></script>
+<script src="https://cdn.rawgit.com/emctague/veca/2cae9b9a/v.js"></script>
 ```
 
 ## Usage
