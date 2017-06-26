@@ -194,6 +194,16 @@ v(5, 10, 15).dot(v(3, 6, 9))
 // => 210
 ```
 
+### Cross Product
+
+The cross product can be gotten using the `cross` method.
+This only applies to 3-dimensional vectors.
+
+```js
+v(5, 10, 15).cross(v(12, 2, 3))
+// => x: 0, y: 165, z: -110
+```
+
 ### Custom Iterative Methods
 
 Custom iterative methods, which behave in the same way as the "Basic

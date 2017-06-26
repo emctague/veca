@@ -41,6 +41,12 @@ function v (x, y, z) {
     // Dot product with another vector.
     this.dot = (b) =>
       this.x * b.x + this.y * b.y + (this.z ? this.z * b.z : 0)
+    
+    // Cross product with another vector.
+    this.cross = (b) =>
+      v(this.y * b.z - this.z * b.y,
+        this.z * b.x - this.x * b.z,
+        this.x * b.y - this.y * b.x)
   })
 }
 
