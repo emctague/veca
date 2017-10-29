@@ -50,6 +50,4 @@ function v (x, y, z) {
   })
 }
 
-// Export, if being used from NodeJS.
-if (typeof window === 'undefined' && typeof module !== 'undefined')
-  module.exports = v;
+module.exports = v;
